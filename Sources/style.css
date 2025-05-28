@@ -33,3 +33,9 @@
     color: white;
     height: 95dvh;
 }
+
+#card:hover{
+    scale: 1.05;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
