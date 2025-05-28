@@ -2,11 +2,34 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Playfair Display", sans-serif;
+}
+
+#section_img{
+    max-width: 600px; 
+    max-height: 600px; 
+    object-fit: cover;
 }
 
 #container{
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100dvh;
+    height: 100%;
+    flex-direction: column;
+    padding: 0;
+}
+
+#section1_alimentacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    background: url('https://images.pexels.com/photos/1028599/pexels-photo-1028599.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'), rgba(0,0, 0, 0.4);
+    background-blend-mode: color-burn;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    height: 95dvh;
 }
