@@ -102,3 +102,6 @@
     margin-bottom: 0.5rem;
     font-weight: bold;
 }
+footer p, footer h4, footer a, footer li{
+    font-family: Roboto; 
+}
